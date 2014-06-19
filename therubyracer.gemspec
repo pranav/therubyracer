@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/v8/version', __FILE__)
-
 Gem::Specification.new do |gem|
   gem.authors       = ["Charles Lowell"]
   gem.email         = ["javascript-and-friends@googlegroups.com"]
@@ -18,5 +16,4 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
 
   gem.add_dependency 'ref'
-  gem.add_dependency 'libv8', '~> 3.16.14.0'
 end
