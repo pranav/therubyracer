@@ -12,7 +12,6 @@ Gem::Specification.new do |gem|
   gem.name          = "therubyracer"
   gem.extensions    = ["ext/v8/extconf.rb"]
   gem.require_paths = ["lib", "ext"]
-  gem.version       = V8::VERSION
   gem.license       = 'MIT'
 
   gem.add_dependency 'ref'
